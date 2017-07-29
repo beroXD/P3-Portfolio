@@ -1,17 +1,17 @@
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 [class*="brandico-"]:before {
-	font-family: 'brandico', sans-serif;
+	font-family: "brandico", sans-serif;
 }
 
 body {
-	font-family: 'Amiri', serif;
+	font-family: "Amiri", serif;
 	color: #676858;
 	font-weight: 400;
 }
 
 .title-logo {
 	font-size: 7em;
-	font-family: 'Megrim', cursive;
+	font-family: "Megrim", cursive;
 	color: black;
 	margin-top: 20px;
 }
@@ -47,14 +47,14 @@ body {
 	font-weight: 700;
 }
 
-img.singapore, img.korea, img.qatar {
+.singapore, .korea, .qatar {
 	-webkit-filter: grayscale(100%);	/* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
 	background-color: dimgray;
 	opacity: 0.80;
 }
 
-img.singapore:hover, img.korea:hover, img.qatar:hover {
+.singapore:hover, .korea:hover, .qatar:hover {
 	filter: none;
 	opacity: inherit;
 }
